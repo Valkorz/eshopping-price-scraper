@@ -1,8 +1,15 @@
-### PyScraper
+### PyScraper (eshopping-price-scraper)
 
-By default, this scraper looks for data in BRL, through the Mercado Livre website, but the code can be tweaked. Also, additional websites can be added in `config/webConfig.json`, the script will check through every single website to calculate an average price. This tool is useful when you quickly need to estimate the price of a heap of items.
+PyScraper (eshopping-price-scraper) is a prototype project designed for scraping prices for products from online stores and other sources. Its main objective is to simplify the process of determining the price of a specific product, by utilizing an automated system to quickly search several store fronts and return a calculated mean average price while accounting for taxes, inflation and displaying a detailed and comprehensible price history, while aiding the user to select the best available offer.
 
----
+### Current State
+
+The current state of the project is capable of scraping the Mercado Livre interface using the BeautifulSoup Python library. Mercado Livre is a popular Brazilian online storefront, chosen for this prototype as it freely allows scraping.
+I look forward to implementing ways to ethically obtain pricing data and further improve the scraping algorithm including support for different locations and currencies.
+
+### Purpose
+
+The sole purpose of this project is to facilitate the gathering, analysis and comparison of pricing data. The ability to quickly price items is extremely useful to budget efficiently and ensure the best deals on products.
 
 ### TODO Features:
 
