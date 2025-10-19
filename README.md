@@ -15,4 +15,4 @@ The sole purpose of this project is to facilitate the gathering, analysis and co
 
 1. Converting scraped prices to an excel sheet
 2. Ability to add excel sheets and/or item lists and allow the program to get the price for each of them (multiple queries at once)
-3. Finish documentation
+3. Use the Selenium library to bypass certain HTML loading limitations for more effective scraping
